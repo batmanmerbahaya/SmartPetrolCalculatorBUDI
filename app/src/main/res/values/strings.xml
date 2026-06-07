@@ -29,8 +29,8 @@
     <string name="section_about_desc">Designed for estimating localized individual travel costs and vehicle consumption statistics.</string>
     <string name="author_info">Name: Muhammad ZulZarif bin Zahir\nMatric No: 2025149671\nCourse: CS266 - Information System Engineering</string>
     <string name="copyright_text">© 2026 Muhammad ZulZarif. All rights reserved.</string>
-    <string name="label_repo_host">Project Repository Host</string>
-    <string name="repo_url">https://github.com/batmanmerbahaya/SmartCalculatorBUDI</string>
+    <string name="label_repo_host">Project Source Code (GitHub)</string>
+    <string name="repo_url">https://github.com/batmanmerbahaya/SmartPetrolCalculatorBUDI</string>
 
     <string name="ron95">Ron 95</string>
     <string name="ron97">Ron 97</string>
