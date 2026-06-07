@@ -547,7 +547,9 @@
                 android:focusable="true"
                 android:padding="12dp"
                 android:background="@drawable/bg_input"
-                android:autofillHints="none" />
+                android:autofillHints="none" 
+                android:breakStrategy="simple"
+                android:hyphenationFrequency="none" />
 
         </LinearLayout>
 
