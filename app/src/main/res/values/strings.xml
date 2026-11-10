@@ -18,8 +18,8 @@
     <string name="btn_calculate">Execute Calculation</string>
     <string name="btn_reset">Reset Fields</string>
     <string name="result_title">Cost Breakdown Summary</string>
-    <string name="result_total_cost">Total Fuel Cost: RM--.--</string>
-    <string name="result_budi_rebate">BUDI Rebate: RM--.--</string>
+    <string name="result_total_cost">Normal Price: RM--.--</string>
+    <string name="result_budi_rebate">You Pay: RM--.--</string>
     <string name="result_total_saving">Total Saving: RM--.--</string>
     <string name="vol_20l">20L</string>
     <string name="vol_40l">40L</string>
@@ -48,12 +48,12 @@
         <item>Yes</item>
         <item>No</item>
     </string-array>
-    <string name="result_total_cost_fmt">Total Petrol Cost: RM%.2f</string>
-    <string name="result_budi_rebate_fmt">BUDI Rebate: RM%.2f</string>
+    <string name="result_total_cost_fmt">Normal Price: RM%.2f</string>
+    <string name="result_budi_rebate_fmt">You Pay: RM%.2f</string>
     <string name="result_total_saving_fmt">Total Saving: RM%.2f</string>
-    <string name="note_ineligible_type">Note: BUDI MADANI rebate is only applied for eligible Ron 95 users.</string>
-    <string name="note_ineligible_user">Note: User is not eligible for BUDI MADANI rebate.</string>
-    <string name="note_rebate_applied">Note: BUDI MADANI rebate applied at RM1.99 per liter for Ron 95.</string>
+    <string name="note_ineligible_type">Note: The BUDI95 price is only for eligible Ron 95 users.</string>
+    <string name="note_ineligible_user">Note: User is not eligible for the BUDI95 price.</string>
+    <string name="note_rebate_applied">Note: BUDI95 price of RM1.99 per liter applied for Ron 95.</string>
 
     <string name="error_invalid_price">Please enter petrol price per liter.</string>
     <string name="error_invalid_usage">Please enter fuel usage in liters.</string>
