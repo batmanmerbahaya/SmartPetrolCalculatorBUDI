@@ -29,7 +29,7 @@ A modern Android application designed to help Malaysian drivers estimate their f
 
 1. **Input**: Enter the petrol price and the amount of fuel used.
 2. **Selection**: Choose the fuel type. Note that BUDI MADANI rebates currently focus on eligible RON 95 usage.
-3. **Calculation**: The app computes the total cost and applies a rebate of **RM 1.99/liter** if the criteria are met.
+3. **Calculation**: The app computes the total cost and charges the BUDI95 price of **RM1.99** per litre for eligible RON95 users if the criteria are met.
 4. **Summary**: Clear breakdown of savings displayed with intuitive icons.
 
 ## 👨‍💻 Developer Information
