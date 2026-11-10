@@ -330,17 +330,22 @@ public class MainActivity extends Activity {
         int selectedEligibleId = rgEligibility.getCheckedRadioButtonId();
         String eligibility = (selectedEligibleId == R.id.rbEligibleYes) ? "Yes" : "No";
 
+        // Cost at the normal pump price
         double totalPetrolCost = fuelUsage * petrolPrice;
-        double budiRebate = 0.0;
 
+        // By default the driver pays the normal price and saves nothing
+        double amountToPay = totalPetrolCost;
+        double totalSaving = 0.0;
+
+        // Eligible RON95 drivers pay the BUDI95 price (RM1.99 per litre) instead
         if (petrolType.equalsIgnoreCase("Ron 95") && eligibility.equalsIgnoreCase("Yes")) {
-            budiRebate = fuelUsage * BUDI_SUBSIDY_RATE;
+            double budiPrice = fuelUsage * BUDI_SUBSIDY_RATE;
+            amountToPay = Math.min(budiPrice, totalPetrolCost);
+            totalSaving = totalPetrolCost - amountToPay;
         }
 
-        double totalSaving = totalPetrolCost - budiRebate;
-
         txtTotalCost.setText(getString(R.string.result_total_cost_fmt, totalPetrolCost));
-        txtBudiRebate.setText(getString(R.string.result_budi_rebate_fmt, budiRebate));
+        txtBudiRebate.setText(getString(R.string.result_budi_rebate_fmt, amountToPay));
         txtTotalSaving.setText(getString(R.string.result_total_saving_fmt, totalSaving));
 
         if (!petrolType.equalsIgnoreCase("Ron 95")) {
